@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-amber-100 dark:bg-amber-950">
+  <div :class="['bg-amber-100', 'dark:bg-amber-950', dark]">
     <div class="flex h-screen flex-col text-3xl content-center justify-center items-center">
-      <h1 class="font-boska 2xl:text-9xl xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl text-7xl font-semibold dark:text-white">PawPlus</h1>
+      <h1 class="z-30 font-boska 2xl:text-9xl xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl text-7xl font-semibold dark:text-white" @click="switchTheme">PawPlus</h1>
       
       
       <h3 class="font-boska font-thin dark:text-white 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl text-xl">Pet care solutions for pet owners.</h3>
@@ -30,11 +30,15 @@
 <script lang="ts" setup>
 
 const s = () => {
-  console.log("0")
   const target = document.getElementById('target')
   if (target) {
     target.scrollIntoView({ behavior: 'smooth' })
   }
+}
+
+const dark = ref("dark")
+const switchTheme = () => {
+  dark.value = dark.value === "dark" ? "light" : "dark"
 }
 
 </script>
