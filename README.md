@@ -1,75 +1,30 @@
-# Nuxt 3 Minimal Starter
+# PawPlus
+A pet care solutions for pet owners.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Features
+- Veterinary Consultations
+    - List of vets (with filter for appropriate vet) and their reviews.
+    - Appointment Booking
+    - Virtual Consultation
+    - Blood Bank solutions
+- Tracker
+    - Medicine
+    - Exercise Routine
+    - Checking the vitals
+- Community Forums
+    - Virtual Owner Interaction Platform
+    - Blogs
+    - Discussions Forums
+- E - Commerce
+    - Pet Care Food
+    - Pet Accessories
+- Other Services
+    - Insurance
+    - Adoption and Rescue Networks
+    - Pet sitting
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Vision
+There does not exist many solutions for pet owners to rightfully provide their pets with care and support in a systematic and robust way. While there possibly are offline setups to help with petcare, they are either too hectic to deal with, too demanding, or both. This is where we see a niche for an online first solution for pet owners.
+We cover almost everything from *veterinary consultations*, to ***e-commerce*** for pets. Our solution does not only provide direct support to pets but also to pet owners through our ***Community Forum***. The community forum is the go to place for owner interactions. Find Blogs, Discussions and much more there.
+We also offer other services like ***Adoption, Pet-Sitting and Insurances***.
+Our platform ensures that pet owners have access to everything they need, all in one place, making pet care simpler and more convenient than ever before.
