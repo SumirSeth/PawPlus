@@ -1,0 +1,28 @@
+@import url('boska.css');
+@import url('general-sans.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    @apply bg-amber-950;
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar-thumb {
+    @apply bg-amber-300 hover:bg-amber-500 rounded-full;
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar-track {
+    @apply bg-amber-900;
+  }
+}
