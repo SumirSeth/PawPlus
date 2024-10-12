@@ -4,10 +4,10 @@
       <h1 class="z-30 font-boska 2xl:text-9xl xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl text-7xl font-semibold dark:text-white" @click="switchTheme">PawPlus</h1>
       
       
-      <h3 class="font-boska font-thin dark:text-white 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl text-xl">Pet care solutions for pet owners.</h3>
+      <h3 class="font-boska font-light dark:text-white 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl text-xl">Pet care solutions for pet owners.</h3>
 
 
-      <svg width="50" height="100" xmlns="http://www.w3.org/2000/svg" class="z-30 arrow 2xl:m-5 xl:m-5 lg:m-4 md:m-4 sm:m-3 m-3 stroke-black dark:stroke-white" @click="s">
+      <svg width="50" height="100" xmlns="http://www.w3.org/2000/svg" class="z-30 arrow 2xl:m-5 xl:m-5 lg:m-4 md:m-4 sm:m-3 m-3 stroke-black dark:stroke-white" @click="scrollDown">
         <path d="M25 0 L25 40 M10 20 L25 40 L40 20" stroke-width="1.5" fill="none"/>
       </svg>
 
@@ -22,24 +22,43 @@
         <!-- Background SVG ENDS -->
     </div>
     <div>
-      <span id="target" class="size-20 block"></span>
+      <span id="target" ref="target" class="size-20 block mt-20"></span>
     </div>
+
+
+    <!-- FEATURES LIST -->
+    
+
+
   </div>
 </template>
 
 <script lang="ts" setup>
 
-const s = () => {
+const scrollDown = () => {
   const target = document.getElementById('target')
   if (target) {
     target.scrollIntoView({ behavior: 'smooth' })
   }
 }
 
+
 const dark = ref("dark")
 const switchTheme = () => {
   dark.value = dark.value === "dark" ? "light" : "dark"
 }
+
+
+const target = ref(null)
+const isElementVisible = useUseVisibilityState()
+const elementVisible = useElementVisibility(target)
+
+onMounted(() => {
+  // Watch for visibility changes and update global state
+  watch(elementVisible, (newVisibility) => {
+    isElementVisible.value = newVisibility;
+  });
+})
 
 </script>
 
