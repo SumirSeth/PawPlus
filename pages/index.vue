@@ -55,6 +55,7 @@ const elementVisible = useElementVisibility(target)
 
 onMounted(() => {
   // Watch for visibility changes and update global state
+  isElementVisible.value = false
   watch(elementVisible, (newVisibility) => {
     isElementVisible.value = newVisibility;
   });
