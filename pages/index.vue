@@ -7,7 +7,7 @@
       <h3 class="font-boska font-thin dark:text-white 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl text-xl">Pet care solutions for pet owners.</h3>
 
 
-      <svg width="50" height="100" xmlns="http://www.w3.org/2000/svg" class="z-20 arrow 2xl:m-5 xl:m-5 lg:m-4 md:m-4 sm:m-3 m-3 stroke-black dark:stroke-white" @click="s">
+      <svg width="50" height="100" xmlns="http://www.w3.org/2000/svg" class="z-30 arrow 2xl:m-5 xl:m-5 lg:m-4 md:m-4 sm:m-3 m-3 stroke-black dark:stroke-white" @click="s">
         <path d="M25 0 L25 40 M10 20 L25 40 L40 20" stroke-width="1.5" fill="none"/>
       </svg>
 
