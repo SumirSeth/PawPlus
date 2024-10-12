@@ -26,7 +26,7 @@ const switchTheme = () => {
   dark.value = dark.value === "dark" ? "light" : "dark"
 }
 
-const elementVisible = useUseVisibilityState()
+const elementVisible = useVisibilityState()
 
 </script>
 

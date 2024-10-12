@@ -48,7 +48,7 @@ const switchTheme = () => {
   dark.value = dark.value === "dark" ? "light" : "dark"
 }
 
-const isElementVisible = useUseVisibilityState()
+const isElementVisible = useVisibilityState()
 
 onMounted(() => {
   // Watch for visibility changes and update global state

@@ -50,7 +50,7 @@ const switchTheme = () => {
 
 
 const target = ref(null)
-const isElementVisible = useUseVisibilityState()
+const isElementVisible = useVisibilityState()
 const elementVisible = useElementVisibility(target)
 
 onMounted(() => {
