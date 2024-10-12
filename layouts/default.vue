@@ -5,9 +5,9 @@
       <NuxtLink to="/services" class="text-2xl z-20 bg-transparent">Services</NuxtLink>
     </div> -->
     <nav class="fixed top-0 left-0 right-0 z-50 h-20 flex items-center justify-center">
-      <div class="bg-black/5 dark:bg-white/5 backdrop-brightness-110 backdrop-blur-xl shadow-lg flex items-center space-x-6 px-6 py-2 rounded-2xl max-w-max">
-        <div class="text-lg font-general font-light dark:text-white"><NuxtLink to="/">PawPlus</NuxtLink></div>
-        <ul class="flex space-x-6 font-general-italic font-normal dark:text-white items-center text-sm ">
+      <div class="bg-black/5 dark:bg-white/5 backdrop-brightness-110 backdrop-blur-xl shadow-lg flex items-center lg:space-x-6 space-x-4 lg:px-6 px-4 py-2 rounded-2xl max-w-max">
+        <div class="2xl:text-2xl xl:text-2xl lg:text-xl md:text-xl sm:text-lg text-lg font-general font-light dark:text-white"><NuxtLink to="/">PawPlus</NuxtLink></div>
+        <ul class="flex lg:space-x-6 space-x-4 font-general-italic font-normal dark:text-white items-center 2xl:text-lg xl:text-lg lg:text-base md:text-base sm:text-sm text-sm ">
           <li><NuxtLink to="/services" class="">services</NuxtLink></li>
           <li><NuxtLink to="/about" class="">about</NuxtLink></li>
         </ul>
