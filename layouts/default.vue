@@ -1,5 +1,7 @@
 <template>
-  <div class="dark:bg-amber-900">
+  <div :class="['bg-amber-100', 'dark:bg-amber-950', dark]">
+
+
     <!-- <div v-if="show" class="flex flex-row justify-evenly items-center dark:bg-amber-900 dark:text-white bg-amber-200 font-general font-thin">
       <NuxtLink to="/" class="text-2xl z-20 bg-transparent">PawPlus</NuxtLink>
       <NuxtLink to="/services" class="text-2xl z-20 bg-transparent">Services</NuxtLink>
@@ -9,7 +11,7 @@
         <div class="2xl:text-2xl xl:text-2xl lg:text-xl md:text-xl sm:text-lg text-lg font-general font-light dark:text-white"><NuxtLink to="/">PawPlus</NuxtLink></div>
         <ul class="flex lg:space-x-6 space-x-4 font-general-italic font-normal dark:text-white items-center 2xl:text-lg xl:text-lg lg:text-base md:text-base sm:text-sm text-sm ">
           <li><NuxtLink to="/services" class="">services</NuxtLink></li>
-          <li><NuxtLink to="/about" class="">about</NuxtLink></li>
+          <li><NuxtLink @click="switchTheme" class="">about</NuxtLink></li>
         </ul>
       </div>
     </nav>
@@ -20,6 +22,10 @@
 <script lang="ts" setup>
 
 const show = ref(true)
+const dark = ref("dark")
+const switchTheme = () => {
+  dark.value = dark.value === "dark" ? "light" : "dark"
+}
 
 </script>
 
