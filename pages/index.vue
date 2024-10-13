@@ -29,18 +29,34 @@
 
     <!-- FEATURES LIST -->
 
-    <div id="target" ref="target" class="feature-set mt-3 lg:mt-5 2xl:max-w-4xl xl:max-w-4xl lg:max-w-3xl md:max-w-2xl sm:max-w-xl max-w-xl mx-auto">
-      <div class="quote flex flex-col items-center justify-center text-center">
-        <p class="font-general text-2xl">
+    <div id="target" ref="target" class="feature-set mt-3 lg:mt-5 2xl:max-w-4xl xl:max-w-4xl lg:max-w-2xl md:max-w-xl sm:max-w-md max-w-sm mx-auto dark:text-white">
+      <!-- QUOTE -->
+      <div class="quote flex flex-col items-center justify-center text-center border rounded-2xl border-black dark:border-white my-10 bg-amber-50 dark:bg-amber-900 shadow-2xl">
+        <p class="font-general 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-base mt-10">
+          Have a pet?
+        </p>
+        <h3 class="font-boska 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-4xl text-3xl font-medium p-3">
+          We've got you covered! 🐾
+        </h3>
+        <p class="font-general 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-base mx-10 mb-10">
+          We're here to help you with all your pet care needs, from feeding, grooming, exercising, and ensuring their health. With our veterinary services, online store, and community forum, we've got you <u class="underline underline-offset-4 decoration-dotted decoration-amber-600 dark:decoration-amber-300">covered</u>.<Icon name="ph:arrow-down" class="dark:text-white text-black" />
+        </p>
+      </div>
+      <!-- QUOTE ENDS -->
+
+       <!-- QUOTE -->
+       <div class="quote flex flex-col items-center justify-center text-center border rounded-2xl border-black dark:border-white my-10 bg-amber-50 dark:bg-amber-900 shadow-2xl">
+        <p class="font-general text-2xl mt-10">
           Have a pet?
         </p>
         <h3 class="font-boska text-5xl font-medium p-3">
           We've got you covered! 🐾
         </h3>
-        <p class="font-general text-2xl">
-          We're here to help you with all your pet care needs, from feeding, grooming, exercising, and ensuring their health. With our veterinary services, online store, and community forum, we've got you <u class="underline underline-offset-4 decoration-wavy decoration-amber-600">covered</u>.<Icon name="ph:arrow-down" style="color: black" />
+        <p class="font-general text-2xl mx-10 mb-10">
+          We're here to help you with all your pet care needs, from feeding, grooming, exercising, and ensuring their health. With our veterinary services, online store, and community forum, we've got you <u class="underline underline-offset-4 decoration-dotted decoration-amber-600 dark:decoration-amber-300">covered</u>.<Icon name="ph:arrow-down" class="dark:text-white text-black" />
         </p>
       </div>
+      <!-- QUOTE ENDS -->
     </div>
 
 
