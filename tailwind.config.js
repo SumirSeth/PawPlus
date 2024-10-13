@@ -14,7 +14,7 @@ export default {
 }
 
 module.exports = {
-  darkMode: 'selector',
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily:{
