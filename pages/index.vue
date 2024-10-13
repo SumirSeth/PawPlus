@@ -22,12 +22,30 @@
         </div>
         <!-- Background SVG ENDS -->
     </div>
-    <div>
+    <!-- <div>
       <span id="target" ref="target" class="size-20 block lg:mt-20 mt-10"></span>
-    </div>
+    </div> -->
 
 
     <!-- FEATURES LIST -->
+
+    <div id="target" ref="target" class="feature-set mt-3 lg:mt-5 2xl:max-w-4xl xl:max-w-4xl lg:max-w-3xl md:max-w-2xl sm:max-w-xl max-w-xl mx-auto">
+      <div class="quote flex flex-col items-center justify-center text-center">
+        <p class="font-general text-2xl">
+          Have a pet?
+        </p>
+        <h3 class="font-boska text-5xl font-medium p-3">
+          We've got you covered! 🐾
+        </h3>
+        <p class="font-general text-2xl">
+          We're here to help you with all your pet care needs, from feeding, grooming, exercising, and ensuring their health. With our veterinary services, online store, and community forum, we've got you <u class="underline underline-offset-4 decoration-wavy decoration-amber-600">covered</u>.<Icon name="ph:arrow-down" style="color: black" />
+        </p>
+      </div>
+    </div>
+
+
+
+
     <p @click="colorMode.preference === 'dark' ? colorMode.preference = 'light' : colorMode.preference = 'dark'">{{ colorMode.preference }}</p>
     
 
