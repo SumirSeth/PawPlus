@@ -23,7 +23,7 @@
         <!-- Background SVG ENDS -->
     </div>
     <div>
-      <span id="target" ref="target" class="size-20 block mt-20"></span>
+      <span id="target" ref="target" class="size-20 block lg:mt-20 mt-10"></span>
     </div>
 
 
