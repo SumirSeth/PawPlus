@@ -44,19 +44,16 @@
       </div>
       <!-- QUOTE ENDS -->
 
-       <!-- QUOTE -->
-       <div class="quote flex flex-col items-center justify-center text-center border rounded-2xl border-black dark:border-white my-10 bg-amber-50 dark:bg-amber-900 shadow-2xl">
-        <p class="font-general text-2xl mt-10">
-          Have a pet?
-        </p>
-        <h3 class="font-boska text-5xl font-medium p-3">
-          We've got you covered! 🐾
-        </h3>
-        <p class="font-general text-2xl mx-10 mb-10">
-          We're here to help you with all your pet care needs, from feeding, grooming, exercising, and ensuring their health. With our veterinary services, online store, and community forum, we've got you <u class="underline underline-offset-4 decoration-dotted decoration-amber-600 dark:decoration-amber-300">covered</u>.<Icon name="ph:arrow-down" class="dark:text-white text-black" />
-        </p>
-      </div>
-      <!-- QUOTE ENDS -->
+      <!-- FEATURE 1 -->
+      
+        <div class="feature grid grid-cols-3 items-center gap-1 border rounded-2xl border-black dark:border-white my-10 bg-amber-50 dark:bg-amber-900 shadow-2xl">
+        <img src="https://plus.unsplash.com/premium_photo-1673967770709-a77bd782ef19?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="feature image" class="col-span-1 rounded-2xl p-2"> 
+        <p class="col-span-2 font-general 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-base mx-2 mb-2 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt totam voluptatem, autem tenetur possimus aut facere beatae maiores dolore, asperiores doloremque reprehenderit dolorum modi quidem veritatis inventore ipsam quisquam!</p>
+        </div>
+      <!-- FEATURE 1 ENDS -->
+    
+
+
     </div>
 
 
